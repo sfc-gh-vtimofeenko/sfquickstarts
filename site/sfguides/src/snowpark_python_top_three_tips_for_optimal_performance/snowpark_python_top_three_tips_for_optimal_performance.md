@@ -79,6 +79,12 @@ Create a fresh database in your Snowflake account for the following labs.  Login
 CREATE DATABASE SNOWPARK_BEST_PRACTICES_LABS;
 ```
 
+Create a stage in that database to hold the UDF code:
+
+```
+CREATE STAGE SNOWPARK_BEST_PRACTICES_LABS.PUBLIC.UDF
+```
+
 We'll also standardize the [warehouse](https://docs.snowflake.com/en/user-guide/warehouses) we will use for the following labs.  Run the following command:
 
 ```
